@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C4B94C7619094F00002BD8B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4B94C7519094F00002BD8B0 /* Foundation.framework */; };
+		C4B94C7819094F00002BD8B0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4B94C7719094F00002BD8B0 /* CoreGraphics.framework */; };
+		C4B94C7A19094F00002BD8B0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4B94C7919094F00002BD8B0 /* UIKit.framework */; };
+		C4B94C7C19094F00002BD8B0 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4B94C7B19094F00002BD8B0 /* SpriteKit.framework */; };
+		C4B94C8219094F00002BD8B0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C4B94C8019094F00002BD8B0 /* InfoPlist.strings */; };
+		C4B94C8419094F00002BD8B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B94C8319094F00002BD8B0 /* main.m */; };
+		C4B94C8819094F00002BD8B0 /* RTPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B94C8719094F00002BD8B0 /* RTPAppDelegate.m */; };
+		C4B94C8B19094F00002BD8B0 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4B94C8919094F00002BD8B0 /* Main_iPhone.storyboard */; };
+		C4B94C8E19094F00002BD8B0 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4B94C8C19094F00002BD8B0 /* Main_iPad.storyboard */; };
+		C4B94C9119094F00002BD8B0 /* RTPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B94C9019094F00002BD8B0 /* RTPViewController.m */; };
+		C4B94C9419094F00002BD8B0 /* RTPMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B94C9319094F00002BD8B0 /* RTPMyScene.m */; };
+		C4B94C9619094F00002BD8B0 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = C4B94C9519094F00002BD8B0 /* Spaceship.png */; };
+		C4B94C9819094F00002BD8B0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4B94C9719094F00002BD8B0 /* Images.xcassets */; };
+		C4B94C9F19094F00002BD8B0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4B94C9E19094F00002BD8B0 /* XCTest.framework */; };
+		C4B94CA019094F00002BD8B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4B94C7519094F00002BD8B0 /* Foundation.framework */; };
+		C4B94CA119094F00002BD8B0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4B94C7919094F00002BD8B0 /* UIKit.framework */; };
+		C4B94CA919094F00002BD8B0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C4B94CA719094F00002BD8B0 /* InfoPlist.strings */; };
+		C4B94CAB19094F00002BD8B0 /* Mini_tutorial_spritekitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B94CAA19094F00002BD8B0 /* Mini_tutorial_spritekitTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C4B94CA219094F00002BD8B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4B94C6A19094F00002BD8B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4B94C7119094F00002BD8B0;
+			remoteInfo = Mini_tutorial_spritekit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C4B94C7219094F00002BD8B0 /* Mini_tutorial_spritekit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mini_tutorial_spritekit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4B94C7519094F00002BD8B0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C4B94C7719094F00002BD8B0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C4B94C7919094F00002BD8B0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C4B94C7B19094F00002BD8B0 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		C4B94C7F19094F00002BD8B0 /* Mini_tutorial_spritekit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mini_tutorial_spritekit-Info.plist"; sourceTree = "<group>"; };
+		C4B94C8119094F00002BD8B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C4B94C8319094F00002BD8B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C4B94C8519094F00002BD8B0 /* Mini_tutorial_spritekit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mini_tutorial_spritekit-Prefix.pch"; sourceTree = "<group>"; };
+		C4B94C8619094F00002BD8B0 /* RTPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTPAppDelegate.h; sourceTree = "<group>"; };
+		C4B94C8719094F00002BD8B0 /* RTPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTPAppDelegate.m; sourceTree = "<group>"; };
+		C4B94C8A19094F00002BD8B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		C4B94C8D19094F00002BD8B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		C4B94C8F19094F00002BD8B0 /* RTPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTPViewController.h; sourceTree = "<group>"; };
+		C4B94C9019094F00002BD8B0 /* RTPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTPViewController.m; sourceTree = "<group>"; };
+		C4B94C9219094F00002BD8B0 /* RTPMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTPMyScene.h; sourceTree = "<group>"; };
+		C4B94C9319094F00002BD8B0 /* RTPMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTPMyScene.m; sourceTree = "<group>"; };
+		C4B94C9519094F00002BD8B0 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		C4B94C9719094F00002BD8B0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C4B94C9D19094F00002BD8B0 /* Mini_tutorial_spritekitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Mini_tutorial_spritekitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4B94C9E19094F00002BD8B0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C4B94CA619094F00002BD8B0 /* Mini_tutorial_spritekitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mini_tutorial_spritekitTests-Info.plist"; sourceTree = "<group>"; };
+		C4B94CA819094F00002BD8B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C4B94CAA19094F00002BD8B0 /* Mini_tutorial_spritekitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mini_tutorial_spritekitTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4B94C6F19094F00002BD8B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4B94C7819094F00002BD8B0 /* CoreGraphics.framework in Frameworks */,
+				C4B94C7A19094F00002BD8B0 /* UIKit.framework in Frameworks */,
+				C4B94C7C19094F00002BD8B0 /* SpriteKit.framework in Frameworks */,
+				C4B94C7619094F00002BD8B0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4B94C9A19094F00002BD8B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4B94C9F19094F00002BD8B0 /* XCTest.framework in Frameworks */,
+				C4B94CA119094F00002BD8B0 /* UIKit.framework in Frameworks */,
+				C4B94CA019094F00002BD8B0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C4B94C6919094F00002BD8B0 = {
+			isa = PBXGroup;
+			children = (
+				C4B94C7D19094F00002BD8B0 /* Mini_tutorial_spritekit */,
+				C4B94CA419094F00002BD8B0 /* Mini_tutorial_spritekitTests */,
+				C4B94C7419094F00002BD8B0 /* Frameworks */,
+				C4B94C7319094F00002BD8B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C4B94C7319094F00002BD8B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4B94C7219094F00002BD8B0 /* Mini_tutorial_spritekit.app */,
+				C4B94C9D19094F00002BD8B0 /* Mini_tutorial_spritekitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4B94C7419094F00002BD8B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4B94C7519094F00002BD8B0 /* Foundation.framework */,
+				C4B94C7719094F00002BD8B0 /* CoreGraphics.framework */,
+				C4B94C7919094F00002BD8B0 /* UIKit.framework */,
+				C4B94C7B19094F00002BD8B0 /* SpriteKit.framework */,
+				C4B94C9E19094F00002BD8B0 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4B94C7D19094F00002BD8B0 /* Mini_tutorial_spritekit */ = {
+			isa = PBXGroup;
+			children = (
+				C4B94C8619094F00002BD8B0 /* RTPAppDelegate.h */,
+				C4B94C8719094F00002BD8B0 /* RTPAppDelegate.m */,
+				C4B94C8919094F00002BD8B0 /* Main_iPhone.storyboard */,
+				C4B94C8C19094F00002BD8B0 /* Main_iPad.storyboard */,
+				C4B94C8F19094F00002BD8B0 /* RTPViewController.h */,
+				C4B94C9019094F00002BD8B0 /* RTPViewController.m */,
+				C4B94C9219094F00002BD8B0 /* RTPMyScene.h */,
+				C4B94C9319094F00002BD8B0 /* RTPMyScene.m */,
+				C4B94C9519094F00002BD8B0 /* Spaceship.png */,
+				C4B94C9719094F00002BD8B0 /* Images.xcassets */,
+				C4B94C7E19094F00002BD8B0 /* Supporting Files */,
+			);
+			path = Mini_tutorial_spritekit;
+			sourceTree = "<group>";
+		};
+		C4B94C7E19094F00002BD8B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4B94C7F19094F00002BD8B0 /* Mini_tutorial_spritekit-Info.plist */,
+				C4B94C8019094F00002BD8B0 /* InfoPlist.strings */,
+				C4B94C8319094F00002BD8B0 /* main.m */,
+				C4B94C8519094F00002BD8B0 /* Mini_tutorial_spritekit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C4B94CA419094F00002BD8B0 /* Mini_tutorial_spritekitTests */ = {
+			isa = PBXGroup;
+			children = (
+				C4B94CAA19094F00002BD8B0 /* Mini_tutorial_spritekitTests.m */,
+				C4B94CA519094F00002BD8B0 /* Supporting Files */,
+			);
+			path = Mini_tutorial_spritekitTests;
+			sourceTree = "<group>";
+		};
+		C4B94CA519094F00002BD8B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4B94CA619094F00002BD8B0 /* Mini_tutorial_spritekitTests-Info.plist */,
+				C4B94CA719094F00002BD8B0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4B94C7119094F00002BD8B0 /* Mini_tutorial_spritekit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4B94CAE19094F00002BD8B0 /* Build configuration list for PBXNativeTarget "Mini_tutorial_spritekit" */;
+			buildPhases = (
+				C4B94C6E19094F00002BD8B0 /* Sources */,
+				C4B94C6F19094F00002BD8B0 /* Frameworks */,
+				C4B94C7019094F00002BD8B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mini_tutorial_spritekit;
+			productName = Mini_tutorial_spritekit;
+			productReference = C4B94C7219094F00002BD8B0 /* Mini_tutorial_spritekit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C4B94C9C19094F00002BD8B0 /* Mini_tutorial_spritekitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4B94CB119094F00002BD8B0 /* Build configuration list for PBXNativeTarget "Mini_tutorial_spritekitTests" */;
+			buildPhases = (
+				C4B94C9919094F00002BD8B0 /* Sources */,
+				C4B94C9A19094F00002BD8B0 /* Frameworks */,
+				C4B94C9B19094F00002BD8B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4B94CA319094F00002BD8B0 /* PBXTargetDependency */,
+			);
+			name = Mini_tutorial_spritekitTests;
+			productName = Mini_tutorial_spritekitTests;
+			productReference = C4B94C9D19094F00002BD8B0 /* Mini_tutorial_spritekitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4B94C6A19094F00002BD8B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RTP;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				TargetAttributes = {
+					C4B94C9C19094F00002BD8B0 = {
+						TestTargetID = C4B94C7119094F00002BD8B0;
+					};
+				};
+			};
+			buildConfigurationList = C4B94C6D19094F00002BD8B0 /* Build configuration list for PBXProject "Mini_tutorial_spritekit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C4B94C6919094F00002BD8B0;
+			productRefGroup = C4B94C7319094F00002BD8B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4B94C7119094F00002BD8B0 /* Mini_tutorial_spritekit */,
+				C4B94C9C19094F00002BD8B0 /* Mini_tutorial_spritekitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4B94C7019094F00002BD8B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4B94C9619094F00002BD8B0 /* Spaceship.png in Resources */,
+				C4B94C9819094F00002BD8B0 /* Images.xcassets in Resources */,
+				C4B94C8E19094F00002BD8B0 /* Main_iPad.storyboard in Resources */,
+				C4B94C8B19094F00002BD8B0 /* Main_iPhone.storyboard in Resources */,
+				C4B94C8219094F00002BD8B0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4B94C9B19094F00002BD8B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4B94CA919094F00002BD8B0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4B94C6E19094F00002BD8B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4B94C8419094F00002BD8B0 /* main.m in Sources */,
+				C4B94C9419094F00002BD8B0 /* RTPMyScene.m in Sources */,
+				C4B94C8819094F00002BD8B0 /* RTPAppDelegate.m in Sources */,
+				C4B94C9119094F00002BD8B0 /* RTPViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4B94C9919094F00002BD8B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4B94CAB19094F00002BD8B0 /* Mini_tutorial_spritekitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C4B94CA319094F00002BD8B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4B94C7119094F00002BD8B0 /* Mini_tutorial_spritekit */;
+			targetProxy = C4B94CA219094F00002BD8B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C4B94C8019094F00002BD8B0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4B94C8119094F00002BD8B0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C4B94C8919094F00002BD8B0 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4B94C8A19094F00002BD8B0 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		C4B94C8C19094F00002BD8B0 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4B94C8D19094F00002BD8B0 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		C4B94CA719094F00002BD8B0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4B94CA819094F00002BD8B0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C4B94CAC19094F00002BD8B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C4B94CAD19094F00002BD8B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4B94CAF19094F00002BD8B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mini_tutorial_spritekit/Mini_tutorial_spritekit-Prefix.pch";
+				INFOPLIST_FILE = "Mini_tutorial_spritekit/Mini_tutorial_spritekit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C4B94CB019094F00002BD8B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mini_tutorial_spritekit/Mini_tutorial_spritekit-Prefix.pch";
+				INFOPLIST_FILE = "Mini_tutorial_spritekit/Mini_tutorial_spritekit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C4B94CB219094F00002BD8B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Mini_tutorial_spritekit.app/Mini_tutorial_spritekit";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mini_tutorial_spritekit/Mini_tutorial_spritekit-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Mini_tutorial_spritekitTests/Mini_tutorial_spritekitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C4B94CB319094F00002BD8B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Mini_tutorial_spritekit.app/Mini_tutorial_spritekit";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mini_tutorial_spritekit/Mini_tutorial_spritekit-Prefix.pch";
+				INFOPLIST_FILE = "Mini_tutorial_spritekitTests/Mini_tutorial_spritekitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4B94C6D19094F00002BD8B0 /* Build configuration list for PBXProject "Mini_tutorial_spritekit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4B94CAC19094F00002BD8B0 /* Debug */,
+				C4B94CAD19094F00002BD8B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4B94CAE19094F00002BD8B0 /* Build configuration list for PBXNativeTarget "Mini_tutorial_spritekit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4B94CAF19094F00002BD8B0 /* Debug */,
+				C4B94CB019094F00002BD8B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C4B94CB119094F00002BD8B0 /* Build configuration list for PBXNativeTarget "Mini_tutorial_spritekitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4B94CB219094F00002BD8B0 /* Debug */,
+				C4B94CB319094F00002BD8B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4B94C6A19094F00002BD8B0 /* Project object */;
+}
